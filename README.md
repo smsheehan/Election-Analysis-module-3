@@ -38,6 +38,13 @@ Once the information was extracted from each row, I wrote a for loop to retrieve
 
 ![image](https://user-images.githubusercontent.com/90977689/136288664-2f585645-3846-4a7b-93ef-fd8d74fddfeb.png)
 
+Similar code was used for the candidates and is not shown in this write up.  Like the previous code for county, within this candidate for loop an if statement was used in this case to determine the winning vote cunt, winning percentage, and winning candidate as shown below.
+
+![image](https://user-images.githubusercontent.com/90977689/136290775-1cab6573-e0bd-4b37-933c-92d94cb331bf.png)
+
+For the complete code, please see the file PyPoll_Challenge_Sheehan.py in this repository.
+
 
 ## Election-Audit Summary: 
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+In summary, we have developed a robust and extensible code for auditing elections.  I propose that this code could easily be adapted to audit city government elections.  Certainly city elections would collect similar data at the polling location level as opposed to the county level.  As such, one would just need to locate the labels in the current code that currently deal with county and change them to appropriate labels for polling location.  Of course you would also have to make sure you are pulling data from the correct row in your spreadsheet as well. The code as currently constructed is not limited by number of candidates or locations.
