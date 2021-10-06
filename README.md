@@ -32,6 +32,11 @@ I then set up a similar if statement to perform a similar function for county.
 
 ![image](https://user-images.githubusercontent.com/90977689/136281911-2f21dcaf-d212-4181-90c1-de1154d53c1e.png)
 
+Once the information was extracted from each row, I wrote a for loop to retrieve the county names and votes from the dictionary created earlier.  I then used that information to calculate the percentage of votes for each county.  It was also important within the for loop to create an if statement to determine the winning county and get its vote count.  The code is shown below.  It should be noted that the code block shown also includes the code I used to write this portion of the analysis to the election_results.txt file as well as to print to the terminal.  This challenge asked for these print and write tasks to be done in stages throughout the program.  I include this one as an exemplar because it was important for this (and subsequent code) to remember to use the "a" in the open(file_to_save, "a") as text file line.  If I had used "w", this code would have overwritten the vote total information I had written to the txt file earlier.
+
+
+
+![image](https://user-images.githubusercontent.com/90977689/136288664-2f585645-3846-4a7b-93ef-fd8d74fddfeb.png)
 
 
 ## Election-Audit Summary: 
