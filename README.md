@@ -13,9 +13,10 @@ Top line results:
 - Diana DeGette is determined to be the winner of the election, having received 73.8% (272,892) of the total votes (369,711).
 
 The following methodology was used to obtain the above results.  To calculate the total number of votes, I first created a total_vote counter and set it to zero.
+
 ![image](https://user-images.githubusercontent.com/90977689/136279087-7b3b9a8a-27e4-46c5-8757-0267dec7b306.png)
 
-I then created empty lists and dictionaries to hold values associated with each candidate and counties.
+I then created empty lists, dictionaries, and vote counters to hold values associated with each candidate and counties.
 
 ![image](https://user-images.githubusercontent.com/90977689/136279940-75cc0119-ffda-41d3-9ef0-cab42a185e90.png)
 
