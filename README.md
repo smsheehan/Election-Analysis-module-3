@@ -12,17 +12,14 @@ Top line results:
 - The three candidates in this election were Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.  Charles Casper Stockham received 85,213 votes, representing 23.0% of the total votes.  Diana DeGette received 272,892 votes, representing 73.8% of the total votes.  And Raymon Anthony Doane received 11,606, representing 3.1% of the total votes.
 - Diana DeGette is determined to be the winner of the election, having received 73.8% (272,892) of the total votes (369,711).
 
+The following methodology was used to obtain the above results.  To calculate the total number of votes, I first created a total_vote counter and set it to zero.
+![image](https://user-images.githubusercontent.com/90977689/136279087-7b3b9a8a-27e4-46c5-8757-0267dec7b306.png)
+
+I then created empty lists and dictionaries to hold values associated with each candidate and counties.
+
+![image](https://user-images.githubusercontent.com/90977689/136279940-75cc0119-ffda-41d3-9ef0-cab42a185e90.png)
 
 
-
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
-
-
-How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ## Election-Audit Summary: 
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
