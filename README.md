@@ -20,6 +20,18 @@ I then created empty lists, dictionaries, and vote counters to hold values assoc
 
 ![image](https://user-images.githubusercontent.com/90977689/136279940-75cc0119-ffda-41d3-9ef0-cab42a185e90.png)
 
+After importing the csv file and skipping the header row, I set up a for loop to enable me to extract the vote, candidate name, and county name from each row.  
+
+![image](https://user-images.githubusercontent.com/90977689/136281246-d94b05ea-2910-4dd0-a55e-7fc6935ae03d.png)
+
+This was followed by an if statement to determine if the candidate name was already in the candidate list.  If it was not, the follwoing code added the candidate name to the candidate list and began tracking the candidate votes (being sure to set the candidate votes counter to zero first).
+
+![image](https://user-images.githubusercontent.com/90977689/136281703-1f5c37d7-22f8-474e-8d73-3b25662d6cf4.png)
+
+I then set up a similar if statement to perform a similar function for county.
+
+![image](https://user-images.githubusercontent.com/90977689/136281911-2f21dcaf-d212-4181-90c1-de1154d53c1e.png)
+
 
 
 ## Election-Audit Summary: 
