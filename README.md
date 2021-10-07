@@ -42,7 +42,7 @@ Similar code was used for the candidates and is not shown in this write up.  Lik
 
 ![image](https://user-images.githubusercontent.com/90977689/136290775-1cab6573-e0bd-4b37-933c-92d94cb331bf.png)
 
-For the complete code, please see the file PyPoll_Challenge_Sheehan.py in this repository.
+For the complete code, please see the file PyPoll_Challenge_Sheehan_vf.py in this repository.
 
 
 ## Election-Audit Summary: 
