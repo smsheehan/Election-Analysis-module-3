@@ -38,7 +38,7 @@ Once the information was extracted from each row, I wrote a for loop to retrieve
 
 ![image](https://user-images.githubusercontent.com/90977689/136288664-2f585645-3846-4a7b-93ef-fd8d74fddfeb.png)
 
-Similar code was used for the candidates and is not shown in this write up.  Like the previous code for county, within this candidate for loop an if statement was used in this case to determine the winning vote count, winning percentage, and winning candidate as shown below.  It is important to note that the print statements have to be outside the loops.
+Similar code was used for the candidates and is not shown in this write up.  Like the previous code for county, within this candidate for loop an if statement was used in this case to determine the winning vote count, winning percentage, and winning candidate as shown below.  It is important to note that the print statements for County with largest turnout and winning candidate have to be outside the loops.
 
 ![image](https://user-images.githubusercontent.com/90977689/136290775-1cab6573-e0bd-4b37-933c-92d94cb331bf.png)
 
